@@ -1,0 +1,834 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>
+		Restaurant
+	</title>
+	<link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  
+<link rel="stylesheet" type="text/css" href="untitled.css">
+	<style type="text/css">
+		*{
+			margin: 0;
+			padding: 0;
+			font-family: 'Satisfy', cursive;
+			box-sizing: border-box;
+
+		}
+
+.logo
+{
+	width:50px;
+	height: 50px;
+
+	float:left;
+
+	margin-left: 50px;
+
+}
+ul{
+	list-style-type: none;
+}
+.list
+{
+	display: block;
+ 	float: right;
+    list-style: none;
+    margin-left: 50px;
+    margin-right: 30px;
+    padding: 10px;
+    margin-top: 40px;
+    font-family: 'Satisfy', cursive;
+
+   
+}
+.link
+{
+font-family: 'Satisfy', cursive;
+
+	display: block;
+	color: white;
+	text-decoration: none;
+	font-size: 18px;
+	padding-left: end;
+}
+.link:hover{
+background: white;
+color: black;
+background-size: 20px;
+}
+
+.hero
+{
+	width:102%;
+	height:100vh;
+	background-image:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(veg.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	text-align: center;
+font-family: 'Satisfy', cursive;
+}
+.Login
+{
+	width: 102%;
+	height: 50vh;
+		text-align: center;
+font-family: 'Satisfy', cursive;
+display: flex;
+justify-content: center;
+}
+h
+{
+font-family: 'Satisfy', cursive;
+
+	font-size: 45px;
+	color: white;
+	float: left;
+text-align: center;
+padding: 100px;
+margin: 100px;
+margin-left: 140px;
+	}
+	h :hover{
+		color:purple;
+		font-family: fantasy;
+	}
+	h1{
+	font-family: sans-serif;
+	font-size: 25px;
+	color: white;
+	padding-left: 20px;	
+	}
+.about
+{
+width: 102%;
+height:165vh;
+background-image:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(copy.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+}
+.heading1
+{
+
+	font-size: 45px;
+	text-align: center;
+	font-weight: 700;
+color:black;
+font-family: 'Satisfy', cursive;
+
+}
+.heading1:hover
+{
+
+	cursor: pointer;
+	background: black;
+color:white;
+background-size: 4px;
+transition: 2s ease ,color 2s ease;
+transform: translatey(-10px);
+}
+.heading
+{
+	padding: 10px;
+	font-size: 45px;
+	text-align: center;
+	font-weight: 700;
+color: white;
+font-family: 'Satisfy', cursive;
+
+}
+.heading:hover
+{
+
+	cursor: pointer;
+	background: black;
+color:white;
+background-size: 4px;
+transition: 2s ease ,color 2s ease;
+transform: translatey(-10px);
+}
+.about-icon
+{
+	margin-right: 10px;
+	width:auto;
+	height:40px; 
+}
+.ab-title{
+	padding: 5px;
+	font-size: 25px;
+	margin:20px 0px;
+	display: flex; 
+	color: orange;
+font-family: 'Satisfy', cursive;
+
+}
+.about-icon:hover
+{
+	transition: 2s ease ,color 2s ease;
+transform: translatey(10px);
+cursor: pointer;
+
+}
+.ab-title:hover
+{
+	transition: 2s ease ,color 2s ease;
+transform: translatey(-10px);
+cursor: pointer;
+color: purple;
+}
+.ab-info
+{
+	padding: 5px;
+color: white;
+line-height: 1.0;
+font-family: 'Satisfy', cursive;
+
+}
+.m-img{
+	width: 102%;
+	min-height: 100vh;
+	background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(pizza1.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+.m-text{
+	width: 102%;
+	min-height: 100vh;
+	align-items: center;
+	background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(fruit.jpg);
+	columns: white;
+	padding: 30px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	margin-top: 10px;
+font-family: 'Satisfy', cursive;
+
+}
+.mm{
+	width: 102%;
+	margin: 0 auto;
+}
+.m-text h{
+font-size: 30px;
+text-transform: uppercase;
+margin-bottom: 10px;
+font-family: 'Satisfy', cursive;
+
+}
+.table ul
+{
+list-style: none;
+color: white;
+}
+.table ul li
+{
+	border: 1px solid white;
+	width:170px;
+	height: 35px;
+	line-height: 35px;
+	text-align: center;
+
+	background-color: transparent;
+	position: relative;
+	color: white;
+font-family: 'Satisfy', cursive;
+
+}
+.table ul li a{
+	text-decoration: none;
+	color:black;
+	color: white;
+font-family: 'Satisfy', cursive;
+
+}
+.table ul li a:hover
+{
+	background-color: grey;
+	font-family: 'Satisfy', cursive;
+
+}
+.table ul ul{
+	position: absolute;
+	margin-left:170px;
+	display: none;
+	top:0px;
+	color: white;
+font-family: 'Satisfy', cursive;
+
+}
+.table ul li:hover >ul
+{
+display: block;
+
+}
+.table ul ul ul
+{
+	margin-left: 170px;
+	top:0px;
+	display: none;
+	position: absolute;
+	color: white;
+font-family: 'Satisfy', cursive;
+
+}
+.gal
+{
+	display: block;
+
+	border-radius: 5px;
+}
+.gal:hover
+{
+	transition: 2s ease;
+transform: scale(0.9,0.9);
+}
+img{
+	width: 100%;
+	border-radius: 5px;
+}
+
+.main
+{
+	margin-left: 80px;
+padding: 20px;
+margin-right: 80px;
+}
+.gallery
+{
+width: 100%;
+height:20vh;
+
+overflow: hidden;
+}
+	.r-img{
+		width: 102%;
+	min-height: 100vh;
+	background:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(foo7.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+.r-text{
+font-family: 'Satisfy', cursive;
+width: 102%;
+	min-height: 100vh;
+	background:url(glass.jpg);
+color: white;
+	margin-top: 10px;
+padding-left: 40px;	
+
+
+	
+}
+.r-table
+{ padding-left: 20px;	
+	
+	
+}
+input
+{
+	margin-left: 20px;
+}
+.submit
+{
+	border: 2px solid black;
+	border-radius: 4px;
+	width:70px;
+	background-color: white;
+	color: black;
+}
+.footer
+{	
+font-family: 'Satisfy', cursive;
+
+	width:102%;
+	height:15vh;
+	color:black;
+	background-color: pink;
+}
+h3
+{
+	display: block;
+font-size: 20px;
+
+color: white;
+text-align: center;
+padding-top: 300px;
+font-family: 'Satisfy', cursive;
+margin-bottom: 300px;
+}
+.contact
+{
+width: 102%;
+height:80vh;
+background-image: url(contact.jpg);	
+background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+font-family: 'Satisfy', cursive;
+
+}
+span
+{
+	color: pink;
+	
+font-family: 'Satisfy', cursive;
+
+}
+p{
+font-family: 'Satisfy', cursive;
+color: white;
+}
+@media screen and(min-width: 576px)
+ {
+	.about{
+		flex: 0 0 calc(50% - 16px);
+	}
+}
+@media screen and(min-width:972px)
+{
+	.about
+{
+	flex: 0 0 calc(33.33% - 16px);
+}
+}
+</style>
+</head>
+<body>
+		<!-- navbar -->
+
+	<nav class="navbar navbar-expand-lg navbar-dark " style="background-color: black; color: white; width: 102%;">
+		<a class="logo " href="#"><img src="LOGO.png"> </a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+		  <span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse" id="navbarNav">
+		  <ul class="navbar-nav">
+			<li class="nav-item active">
+			  <a class="nav-link px-5" href="#home">Home <span class="sr-only">(current)</span></a>
+			</li>
+			<li class="nav-item">
+			  <a class="nav-link px-5" href="#about">About Us</a>
+			</li>
+			<li class="nav-item">
+			  <a class="nav-link px-5" href="#menu">Menu</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link px-5" href="#gallery">Gallery</a>
+			  </li>
+			<li class="nav-item">
+				<a class="nav-link px-5" href="#reserve">Reservations</a>
+			  </li>
+			  <li class="nav-item">
+				<a class="nav-link px-5" href="#contact">Contact Us</a>
+			  </li>
+			
+		  </ul>
+		</div>
+	  </nav>
+	<!-- hero -->
+	<div class="hero" id="hero">
+	<h3 >	WELCOME TO <span>'SAISH'</span></br>
+		The best gourment restuarant available in <span>Udupi</span> Town<br>
+	Book online or <span>contact us</span>.</h3>
+</div>
+<!--  -->
+<div class="about" id="about">
+	<p class="heading">About Us</p>
+<div class="ab-text">
+	<table>
+		<tr>
+	<td><img  class="about-icon" src="jice.png">
+	<h1 class="ab-title">Drinks</h1>
+	<p class="ab-info"> <br>Duis aute irure dolor in reprehenderit <br>in voluptate velit esse
+		cillum <br>dolore eu fugiat nulla</p></td>
+
+
+	<td><img class="about-icon" src="tea.png">
+
+	<h1 class="ab-title">Coffee</h1>
+	<p class="ab-info"> <br>Duis aute irure dolor in reprehenderit <br>in voluptate velit esse
+		cillum <br>dolore eu fugiat nulla</p></td>
+
+
+<td><img class="about-icon" src="pizza.png">
+
+	<h1 class="ab-title">Pizza</h1>
+	<p class="ab-info"> <br>Duis aute irure dolor in repr<br>ehenderit in voluptate velit esse
+		cillum<br> dolore eu fugiat nulla</p></td>
+
+	</tr>
+	<tr>
+	<td>
+<img class="about-icon" src="fish.png">
+
+	<h1 class="ab-title">Sea Food</h1>
+	<p class="ab-info"><br>Duis aute irure dolor in repr<br>ehenderit in voluptate velit esse
+		cillum<br> dolore eu fugiat nulla </p>
+</td>
+<td>	<img class="about-icon" src="burger.png">
+
+	<h1 class="ab-title">Burger</h1>
+	<p class="ab-info"> <br>Duis aute irure dolor in reprehenderit <br>in voluptate velit esse
+		cillum <br>dolore eu fugiat nulla</p></td>
+	
+<td><img class="about-icon" src="chilly.png">
+
+	<h1 class="ab-title">Spicy</h1>
+	<p class="ab-info"> <br>Duis aute irure dolor in reprehenderit <br>in voluptate velit esse
+		cillum <br>dolore eu fugiat nulla </p></td>
+</tr>
+<tr>
+<td>
+<img class="about-icon" src="ice.png">
+	<h1 class="ab-title">Dessert</h1>
+	<p class="ab-info"> <br>Duis aute irure dolor in repr<br>ehenderit in voluptate velit esse
+		cillum<br> dolore eu fugiat nulla</p>
+	</td>
+	<td>
+<img class="about-icon" src="donno.png">
+<h1 class="ab-title">Meat</h1>
+	<p class="ab-info"><br>Duis aute irure dolor in reprehenderit <br>in voluptate velit esse
+		cillum <br>dolore eu fugiat nulla</p></td>
+	
+<td><img class="about-icon" src="plate.png">
+
+	<h1 class="ab-title">healthy</h1>
+	<p class="ab-info"><br>Duis aute irure dolor in repr<br>ehenderit in voluptate velit esse
+		cillum<br> dolore eu fugiat nulla</p>
+	</td>
+	</tr>
+</table>
+	</div>	
+</div>
+<!--menu  -->
+
+
+
+<section>
+<article class="m-img"></article>
+	<article class="m-text">
+<div  class="menu" id="menu">
+
+		<p class="heading">Menu</p>	
+<p> Life is a menu.Whatever you order is what's delivered to the table.</p>
+<div class="table">
+			<ul>
+
+				<li ><a href="#">Breakfast</a>
+		
+					<ul>
+	<li><a href="#">Pan Cake</a>
+		<ul>
+
+			<li><a href="#">Golden Pancake Rs60</a></li>
+	<li><a href="#">Choco Chip Pancake Rs80</a></li>
+	<li><a href="#">Butter milk with vanilla Rs75</a></li>
+		
+		</ul>
+	</li>
+		<li><a href="#">French Toast</a>
+<ul>
+	<li><a href="#">Blueberry french toast Rs65</a></li>
+	<li><a href="#">Banana French toast Rs 55</a></li>
+	<li><a href="#">French toast and egg Rs 50</a></li>
+		</ul>
+		</li>
+		</ul>
+</li>
+						<li><a href="#">Starters</a>
+							<ul>
+	<li><a href="#">Veg</a>
+		<ul>
+			<li><a href="#">Crispy Paneer Rs100</a></li>
+	<li><a href="#">Cheese Pakoda  Rs90</a></li>
+	<li><a href="#">Hariyal Kabab  Rs150</a></li>
+		
+		</ul>
+	</li>
+		<li><a href="#">Non Veg</a>
+<ul>
+	<li><a href="#"> Chicken Wrap Rs85</a></li>
+	<li><a href="#">Grilly Willy Rs99</a></li>
+	<li><a href="#"> Malai Tikka Rs110</a></li>
+		</ul>
+		</li>
+		</ul>
+</li>
+
+	<li><a href="#">Rice Bowls</a>
+
+	<ul>
+	<li><a href="#">Veg</a>
+		<ul>
+			<li><a href="#">Chole Chawal Rs140</a></li>
+	<li><a href="#">Biryani Rice Rs100</a></li>
+	<li><a href="#">Dhal Makhni Chawal Rs150</a></li>
+		
+		</ul>
+	</li>
+		<li><a href="#">Non Veg</a>
+<ul>
+	<li><a href="#"> Chicken Biryani Rs220</a></li>
+	<li><a href="#">Butter Chicken Rice bowl Rs270</a></li>
+	<li><a href="#">Chicken Tikka rice bowl Rs260</a></li>
+		</ul>
+		</li>
+		</ul>
+</li>
+	<li><a href="#">Burgers</a>
+		<ul>
+	<li><a href="#">Veg</a>
+		<ul>
+			<li><a href="#">Paneer Burger  Rs120</a></li>
+	<li><a href="#">Aloo Burger Rs100</a></li>
+	<li><a href="#">Spicy veg Burger Rs110</a></li>
+		
+		</ul>
+	</li>
+		<li><a href="#">Non Veg</a>
+<ul>
+	<li><a href="#">Zinger Burger Rs150</a></li>
+	<li><a href="#"> Spicy Zinger Burger Rs160</a></li>
+	<li><a href="#">Grilled Chicken Burger Rs180</a></li>
+		</ul>
+		</li>
+		</ul>
+</li>
+	<li><a href="#">Pizzas</a>
+		<ul>
+	<li><a href="#">Veg</a>
+		<ul>
+			<li><a href="#"> Classic Cron Pizza Rs100</a></li>
+	<li><a href="#">Tandoori Paneer Rs 200</a></li>
+	<li><a href="#">Veggie Supreme Rs285</a></li>
+		
+		</ul>
+	</li>
+		<li><a href="#">Non Veg</a>
+<ul>
+	<li><a href="#">Chicken Sausage Rs200</a></li>
+	<li><a href="#">Chicken Exotic Rs 260</a></li>
+	<li><a href="#">Smoked Chicken Rs250</a></li>
+		</ul>
+		</li>
+		</ul>
+</li>
+<li><a href="#">Soups</a>
+<ul>
+	<li><a href="#">Veg</a>
+		<ul>
+			<li><a href="#">Sweet Cron Soup Rs90</a></li>
+	<li><a href="#">Manchow Soup Rs135</a></li>
+	<li><a href="#">Cream of Spinach Rs180</a></li>
+		
+		</ul>
+	</li>
+		<li><a href="#">Non Veg</a>
+<ul>
+	<li><a href="#"> Hot&Sour Chicken Soup Rs 110</a></li>
+	<li><a href="#"> Chicken Noodles Soup Rs130</a></li>
+	<li><a href="#">Chicken LungFung Soup Rs160</a></li>
+		</ul>
+		</li>
+		</ul>
+</li>
+		<li><a href="#">Beverages</a>
+			<ul>
+	<li><a href="#">Drinks</a>
+		<ul>
+			<li><a href="#">Coke Rs70</a></li>
+	<li><a href="#">Soda in can Rs50</a></li>
+	<li><a href="#">Fresh fruit Shake Rs 75</a></li>
+		
+		</ul>
+	</li>
+		<li><a href="#">Cocktails</a>
+<ul>
+	<li><a href="#">Pink Lady Rs100</a></li>
+	<li><a href="#">Lemon Drop Rs90</a></li>
+	<li><a href="#">Green Paradise Rs90</a></li>
+		</ul>
+		</li>
+		</ul>
+</li>
+		<li><a href="#">Desserts</a>
+			<ul>
+	<li><a href="#">Frozen desserts</a>
+		<ul>
+			<li><a href="#">Chocolate brownie Rs145</a></li>
+	<li><a href="#">Hazelnut & Chocolate Rs 200</a></li>
+	<li><a href="#">Vanilla Oreo Rs 150</a></li>
+		
+		</ul>
+	</li>
+		<li><a href="#">Deep-fried desserts</a>
+<ul>
+	<li><a href="#"> Deep-fried Oreo Rs120</a></li>
+	<li><a href="#">Gulab Guess Rs100</a></li>
+	<li><a href="#">Am Optionless Rs500</a></li>
+		</ul>
+		</li>
+		</ul>
+</li>
+</ul>	
+</div>	
+	
+</div>
+</article>
+</section>
+<!-- end menu -->
+<!-- gallery -->
+<!-- 
+<div class="gallery" id="gallery">
+	<p class="heading">Gallery</p>
+	<div class="main">
+	<div class="gal">
+		<img   src="pp8.jpg"></div>
+<div class="gal"><img  src="foo5.jpg"></div>
+<div class="gal"><img  src="pp4.jpg"></div>
+<div class="gal"><img  src="pp5.jpg"></div>
+
+<div class="gal"><img   src="noodle.jpg"></div>
+<div class="gal"><img   src="pp7.jpeg"></div>
+
+<div class="gal"><img   src="foo7.jpg"></div>
+<div class="gal"><img   src="ppp.jpeg"></div>
+</div>
+</div> -->
+<div class="container-fluid">
+	<div class="gallery" id="gallery"></div>
+	<p class="heading1">Gallery</p>
+</div>
+	<div class="row">
+		<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
+			<a href="#" class="d-block  h-100">
+				<img class="img-fluid img-thumnail gal" src="pp8.jpg">
+			</a>
+		</div>
+		<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12  p-2">
+			<a href="#" class="d-block h-100">
+				<img class="img-fluid img-thumnail gal" src="foo5.jpg">
+			</a>
+		</div>
+		<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12  p-2">
+			<a href="#" class="d-block h-100">
+				<img class="img-fluid img-thumnail gal" src="pp4.jpg">
+			</a>
+		</div>
+		<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
+			<a href="#" class="d-block  h-100">
+				<img class="img-fluid img-thumnail gal" src="pp5.jpg">
+			</a>
+		</div>
+		<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
+			<a href="#" class="d-block  h-100">
+				<img class="img-fluid img-thumnail gal" src="noodle.jpg">
+			</a>
+		</div>
+		<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">
+			<a href="#" class="d-block  h-100">
+				<img class="img-fluid img-thumnail gal" src="pp7.jpeg">
+			</a>
+		</div>
+		<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12  p-2">
+			<a href="#" class="d-block h-100">
+				<img class="img-fluid img-thumnail gal" src="foo7.jpg">
+			</a>
+		</div>
+		<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12  p-2">
+			<a href="#" class="d-block h-100">
+				<img class="img-fluid img-thumnail gal" src="ppp.jpeg">
+			</a>
+		</div>
+	</div>
+</div>
+<!-- contact -->
+<div class="contact" id="contact">
+	<p class="heading">Contact Us</p>
+<fieldset style="width:390px; color:black;" >
+			<form>
+				
+<h1>Contact Details</h1>
+<input type="text" name="phn">
+<br>
+<h1>Email address</h1>
+<input type="text" name="mail">
+<br>
+<h1>Location</h1>
+<input type="Location" name="time">
+<br>
+<h1> Message</h1>
+<input type="text" name="phn">
+<br>
+<br>
+<input class="submit" type="submit"  >
+</form>
+</fieldset>
+</div>
+
+
+
+<!-- reservation -->
+<section >
+<article class="r-img"></article>
+	<article class="r-text">
+<div class="reserve" id="reserve">
+		<p class="heading">Reservations</p>	
+		<p>For parties of six or more , we recommend making <br>
+reservations atleast two weeks in advance.
+		</p>
+		<div class="r-table">
+			<fieldset style="width:390px; color:black;" >
+			<form>
+				<div class="name">
+<h1>Name</h1>
+<input type="text" name="name">
+<br>
+<h1> Email</h1>
+<input type="text" name="email">
+<br>
+<h1> Phone</h1>
+<input type="text" name="phn">
+<br>
+<h1> Date*</h1>
+<input type="Date" name="date">
+<br>
+<h1> Time</h1>
+<input type="Time" name="time">
+<br>
+<h1>Number of Guests</h1>
+<input type="text" name="no">
+<br>
+<h1> Comments</h1>
+<input type="text" name="phn">
+<br>
+<br>
+<input class="submit" type="submit"  >
+</form>
+</fieldset>
+</div>
+</div>
+</article>
+</section>
+<!-- footer -->
+<div class="footer">
+	Developed by Pratheeksha R Salian(Full Stack web development trainee Intern at Fouses)
+</div>
+</body>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+
+</html>
+
